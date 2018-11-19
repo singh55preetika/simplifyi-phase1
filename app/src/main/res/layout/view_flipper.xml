@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/back"
+    android:layout_alignParentTop="true">
+    <include layout="@layout/answercall"/>
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/viewflipper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:flipInterval="2000"
+    android:paddingTop="40dp">
+
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+
+    <include
+        layout="@layout/bottom_refresh"
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="0dp">
+
+
+    <include
+        layout="@layout/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="517dp" />
+
+</RelativeLayout>
+
+</RelativeLayout>
